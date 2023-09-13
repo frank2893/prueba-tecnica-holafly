@@ -44,17 +44,17 @@ const AxiosKittens = async ({ params }) => {
                     Addres:
                   </span>
                   <span className="ml-1 text-[14px] leading-[16px]">
-                    {data.title}
+                    Calle 1 AV 1
                   </span>
                 </div>
               </div>
               <div className="flex flex-row w-full">
-                <div className="flex flex-row w-full items-center">
+                <div className="flex flex-row w-full items-start md:items-center">
                   <Letter />
                   <span className="ml-1 font-semibold text-[16px]">
                     Biografy:
                   </span>
-                  <span className="ml-1 text-[14px] leading-[16px]">
+                  <span className="ml-1 text-[14px] leading-[16px] text-justify">
                     Le gusta jugar con sus jugues, perseguir pajaros, comer
                   </span>
                 </div>

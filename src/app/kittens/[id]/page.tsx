@@ -21,7 +21,7 @@ const Kitten = ({ params }) => {
             <p>{filteData.name}</p>
           </div>
           <div className="px-6 pb-4">
-            <p className="ml-1 text-[14px] leading-[16px]">
+            <p className="ml-1 text-[14px] leading-[16px] text-justify">
               {filteData.description}
             </p>
           </div>

@@ -1,16 +1,23 @@
-## Holakittens instructions
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Hey there!
+## Getting Started
 
-Are you ready to make a super cute app featuring adorable kittens? Great! Here's what you'll need to do:
+First, open a terminal and run npm install:
 
-Use a language you're comfortable with (like NodeJS, Rails, or Java) to create a simple REST API with a single endpoint called /kittens. This endpoint should return the "kittens.json" data (or a similar version of it). You don't need to worry about storing the data - just mock it up for now.
+```bash
+npm run install
+```
 
-Next, use React to create an app that displays the kittens from the API. You can use a library like Axios to fetch the data from the API. Your app should show a list of all the kittens at first, and then allow the user to select a specific kitten to see more details about it. While the app is waiting for the API request to finish, display a spinner or placeholder component. Make sure your app looks decent and is somewhat responsive, so it doesn't look terrible on mobile phones.
+Second, run the development serve
+```bash
+npm run dev
+```
 
-Finally, put your code on a public Github repository with a README.md file that explains how to run the API and frontend app.
+Open [http://localhost:3000](http://localhost:3000) with your favorite browser to see the result.
 
-### BONUS
-If you're feeling extra ambitious:
--   Dockerize the app
--   Write realistic unit/end-to-end tests to make sure everything is working properly.
+Now you can explore the site.
+
+## Routes
+- **/kittens** List of beautiful cats
+- **/axiosKittens** List of fake data, we use it to show what the app look like with mora data
+- **/search** Coming soon.
