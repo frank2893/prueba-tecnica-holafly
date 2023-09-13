@@ -1,4 +1,4 @@
-import { Breed, Calendar, Letter, Pin } from "@/app/components/icons/Icons";
+import { Breed, Calendar } from "@/app/components/icons/Icons";
 import kittesData from "../../mockData/kittens.json";
 import React from "react";
 

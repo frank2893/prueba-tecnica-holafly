@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Breed } from "./components/icons/Icons";
 
 export default function Home() {
