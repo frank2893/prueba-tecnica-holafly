@@ -18,10 +18,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  max-width: 1200px;
+  margin: 0 auto;
+  background: linear-gradient(90deg, rgba(242,242,242,1) 0%, rgba(255,255,255,1) 46%, rgba(237,237,237,1) 100%);
 }
