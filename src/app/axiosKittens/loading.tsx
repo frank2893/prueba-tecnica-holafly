@@ -1,12 +1,8 @@
 import React from "react";
+import Loader from "../components/common/Loader";
 
 const loading = () => {
-  return (
-    <div>
-      <svg className="animate-spin h-5 w-5 mr-3 ..." viewBox="0 0 24 24"></svg>
-      Processing...
-    </div>
-  );
+  return <Loader />;
 };
 
 export default loading;
